@@ -38,9 +38,3 @@ if [ -n "$WRT_PACKAGE" ]; then
 	echo "$WRT_PACKAGE" >> ./.config
 fi
 
-#科学插件设置
-if [[ $WRT_URL == *"padavanonly"* ]]; then
-	
-else
-	echo "CONFIG_PACKAGE_luci-app-store=y" >> ./.config
-fi
